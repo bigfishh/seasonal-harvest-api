@@ -9,12 +9,12 @@
 puts "deleting seasons"
 Season.destroy_all
 
-puts "creating seasons 🌞☃️🍂🌷"
+puts "creating seasons 🌞🌨🍂🌷"
 fall = Season.create(name: 'Fall')
 winter = Season.create(name: 'Winter')
 summer = Season.create(name: 'Summer')
 spring = Season.create(name: 'Spring')
-puts "finished creating seasons 🌞☃️🍂🌷✅"
+puts "finished creating seasons 🌞🌨🍂🌷✅"
 
 
 apple = Produce.create(name: "Apple", description:"round fruit of a tree of the rose family, which typically has thin red or green skin and crisp flesh. Many varieties have been developed as dessert or cooking fruit or for making cider", months: "July, August, September, October, November", vegetable: false, fruit: true)
