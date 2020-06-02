@@ -1,0 +1,2 @@
+class SeasonalProducesController < ApplicationController
+end
